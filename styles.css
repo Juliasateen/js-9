@@ -1,0 +1,71 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 10px auto;
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #6495ED;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    background-color: #9ACEEB;
+    border-bottom: 1px solid #6495ED;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+}
+
+.button {
+    margin-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    width: 70px;
+    background-color: #FFCBDB;
+    border-radius: 5px;
+    border: 1px solid #6495ED;
+}
+
+.task {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.input {
+    padding: 5px 10px;
+    width: 250px;
+}
+
+.input::placeholder {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid #B8B799;
+}
+
+.taskContainer {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(114, 129, 129, 0.61);
+    padding: 10px;
+}
+
+.checkbox {
+    width: 15px;
+    height: 15px;
+}
+
+.active {
+    text-decoration: line-through;
+}
